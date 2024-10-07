@@ -2,4 +2,6 @@ module go-misis
 
 go 1.23.1
 
-require golang.org/x/tour v0.1.0 // indirect
+require go.uber.org/zap v1.27.0
+
+require go.uber.org/multierr v1.11.0 // indirect
