@@ -11,7 +11,7 @@ func main() {
 	s, _ := storage.NewStorage(log)
 
 	s.Set("key1", "Goncharov")
-	s.Set("key2", 22)
+	s.Set("key2", 1.2)
 
 	fmt.Println(*s.Get("key1"))
 	fmt.Println(*s.Get("key2"))
